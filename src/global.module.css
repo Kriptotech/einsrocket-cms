@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: calc(100% - 2rem);
+}
+
+@media only screen and (min-width: 960px) {
+  .wrapper {
+    width: calc(100% - 30rem);
+  }
+}
